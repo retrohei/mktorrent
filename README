@@ -1,6 +1,6 @@
-To build the program you need OpenSSL installed.
-Type 'make' to build the program.
-Do 'make install' to install the program to /usr/local/bin.
-For more options look in the Makefile script.
+mktorrent Version 4.0 modded
 
-See http://home.imf.au.dk/esmil/mktorrent/ for more info.
+added:
+"-s,            : start the daemon\n" (Starts a new partial torrent and runs the mktorrent instance in background until torrent gets finalized)
+"-x             : do partial hashing\n" (Add files to a partial torrent and hash them)
+"-f             : create the final .torrent from the parts\n" (Finalize the torrent after all partial are added)
